@@ -14,6 +14,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class TestRest {
     @GetMapping("/")
     public String main() {
-        return "Application is Running";
+        return "Application is Running~";
     }
 }

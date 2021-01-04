@@ -20,7 +20,7 @@ public class SjApplication implements CommandLineRunner {
 			if (i == Integer.MAX_VALUE)
 				break;
 
-			log.info("Hello World ::: {}", ++i);
+			log.info("Hello World ~ ::: {}", ++i);
 		}
 	}
 }
