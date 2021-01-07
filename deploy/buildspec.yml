@@ -11,7 +11,7 @@ phases:
       - aws eks --region ap-northeast-2 update-kubeconfig --name cloud-l3-eks
   pre_build:
     commands:
-      - echo Logging in to Amazon ECR...
+      - echo Logging in to Amazon ECR....
       - $(aws ecr get-login --no-include-email --region $AWS_DEFAULT_REGION)
   build:
     commands:
