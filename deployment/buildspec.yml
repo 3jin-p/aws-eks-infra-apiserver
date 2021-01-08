@@ -8,8 +8,6 @@ phases:
       - chmod +x ./kubectl
       - mv ./kubectl /usr/local/bin/kubectl
       - mkdir ~/.kube
-      # Install Iam Authenticator
-      - kubectl get po --all-namespaces
       - aws eks --region ap-northeast-2 update-kubeconfig --name ekstest
   pre_build:
     commands:
