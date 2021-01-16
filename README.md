@@ -1,4 +1,4 @@
-AWS 인프라 구축 테스트용 
+AWS 인프라 구축 테스트용 컨테이너 생성 소스 
 ---
 서버 : EKS (machine : fargate)  
 배포 : CodePipeLine, CodeBuild  
