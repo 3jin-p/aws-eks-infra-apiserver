@@ -18,7 +18,7 @@ phases:
       - chmod +x ./kubectl
       - mv ./kubectl /usr/local/bin/kubectl
       - mkdir ~/.kube
-      - aws eks --region ap-northeast-2 update-kubeconfig --name ekstest --role-arn arn:aws:iam::894538594166:role/service-role/codebuild-testCodeBuild-service-role
+      - aws eks --region ap-northeast-2 update-kubeconfig --name ekstest --role-arn <codeBuildArn>
   pre_build:
     commands:
       - echo Logging in to Amazon ECR....
